@@ -1,0 +1,28 @@
+.nav_container{
+    height: 15vh;
+    background-color:lightblue;
+}
+
+.nav_list_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav_list_container li {
+    padding: 30px;
+    
+    /* text-decoration: none; */
+}
+
+.nav_list_container li a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 1.3rem;
+}
+
+.nav_list_container li a:hover{
+    color: lightseagreen;
+}
